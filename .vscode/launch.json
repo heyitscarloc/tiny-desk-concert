@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TinyDeskConcertApplication<tiny-desk-concert>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.npr.tinydeskconcert.TinyDeskConcertApplication",
+            "projectName": "tiny-desk-concert",
+            "args": ""
+        }
+    ]
+}

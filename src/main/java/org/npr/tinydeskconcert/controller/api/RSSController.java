@@ -1,4 +1,4 @@
-package org.npr.tinydeskconcert.api.controller;
+package org.npr.tinydeskconcert.controller.api;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -6,6 +6,4 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/v1")
 public class RSSController {
-    @GetMapping()
-
 }
