@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout\main}">
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	xmlns:th="http://www.thymeleaf.org" layout:decorate="~{layout\main}">
 
 <head>
-  <title>
-    <!-- title -->
-  </title>
+<title><!-- title -->
+</title>
 </head>
 
 <body>
-  <section layout:fragment="content">
-    <form></form>
-  </section>
+	<section layout:fragment="content">
+		<h2>Enter Contest</h2>
+		<form action="#" th:action="@{/contest}"
+			th:object="${contestEntryModel}" method="post">
+			<label>User name <input type="text" th:field="*{username}" />
+			</label> <label>Password <input type="password"
+				th:field="*{password}" />
+			</label> <label>Video URL <input type="url" th:field="*{url}" />
+			</label> <label>Group Name <input type="text" th:field="*{groupName}" />
+			</label> <input type="submit" value="Submit" /> <input type="reset"
+				value="Reset" />
+		</form>
+	</section>
 </body>
 
 </html>
