@@ -5,6 +5,7 @@ import java.util.Optional;
 import org.npr.tinydeskconcert.domain.ContestUser;
 import org.springframework.stereotype.Repository;
 
+// fake stubbing
 @Repository
 public class UserDAOImpl implements UserDAO {
 	@Override
