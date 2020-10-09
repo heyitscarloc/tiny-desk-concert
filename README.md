@@ -1,2 +1,5 @@
 # tiny-desk-concert
-This is just for fun
+Patterns used:
+-Builder pattern
+-MVC
+-Post/redirect/get
